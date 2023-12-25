@@ -1,0 +1,63 @@
+/* MentalHealth.css */
+.mental-health-container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #41b3a4;
+  border: 1px solid #ddd;
+}
+
+.mental-health-container h2 {
+  margin-top: 0;
+}
+
+.mood-tracking {
+  margin-bottom: 20px;
+}
+
+.mood-tracking label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.mood-tracking select {
+  padding: 8px;
+  width: 100%;
+}
+
+.meditation-info {
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.meditation-timer {
+  margin-bottom: 20px;
+}
+
+.meditation-timer button {
+  padding: 10px;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.meditation-timer button:disabled {
+  background-color: #41b3a3;
+  cursor: not-allowed;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.quote-container h3 {
+  margin-bottom: 8px;
+}
+
+.quote-container p {
+  font-style: italic;
+}

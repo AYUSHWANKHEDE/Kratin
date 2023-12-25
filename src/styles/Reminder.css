@@ -1,0 +1,98 @@
+/* Combined.css */
+
+/* AddReminder.css */
+.add-reminder-container,
+.reminder-container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #41b3a3;
+  border: 1px solid #ccc;
+}
+
+.add-reminder-container {
+  background-color: #41b3a3;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-reminder-container h2,
+.reminder-container h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+
+.add-reminder-container form,
+.reminder-container ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add-reminder-container input[type="text"],
+.add-reminder-container input[type="datetime-local"] {
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.add-reminder-container button,
+.reminder-container button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  background-color: #41b3a3;
+}
+
+.add-reminder-container button:hover,
+.reminder-container button:hover {
+  background-color: #41b3a3;
+}
+
+.add-reminder-container button[type="submit"],
+.reminder-container button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 24px;
+}
+
+.add-reminder-container button[type="submit"]:hover,
+.reminder-container button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Reminder.css */
+.reminder-container {
+  background-color: #41b3a3; 
+  box-shadow: none;
+}
+
+.reminder-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.reminder-container li {
+  background-color: #41b3a3;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  
+  padding: 8px 0;
+}
+
+.reminder-container li:last-child {
+  border-bottom: none;
+}
+
+.reminder-container button {
+  background-color: #dc3545;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.reminder-container button:hover {
+  background-color: #c82333;
+}

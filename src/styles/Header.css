@@ -1,0 +1,39 @@
+/* Header.js */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  background-color: #41b3a3;
+
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #000;
+  transition: color 0.3s;
+}
+
+.nav-item a:hover {
+  color: #007bff;
+}
